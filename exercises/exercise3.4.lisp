@@ -1,0 +1,6 @@
+(defun procedure (x y)
+	(if (<= x y) 
+		(if (= x y) y (+ x (procedure (+ x 1) y)))
+		(if (= x y) y (+ x (procedure (- x 1) y)))
+	)
+	)

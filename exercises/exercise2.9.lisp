@@ -1,0 +1,5 @@
+(defun middle (a b c)
+	(cond ((> a b) (cond ((> c a) a) ((> b c) b) (t c)))
+		((> b a) (cond ((> c b) b) ((> a c) a) (t c)))
+		)
+	)

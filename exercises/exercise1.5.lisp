@@ -1,0 +1,1 @@
+(defun convert_f_to_celsius (a) (* (- a 32) (/ 5 9)))

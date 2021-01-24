@@ -1,0 +1,7 @@
+(defun multiply (x y)
+	(cond ((= x 0) 0)
+		((= y 0) 0)
+		((= y 1) x)
+		(t (+ x (multiply x (- y 1))))
+		)
+	)
